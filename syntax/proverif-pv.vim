@@ -13,6 +13,7 @@ endif
 syn case match
 
 setlocal iskeyword+=39,45
+setlocal commentstring:(*%s*)
 
 syn keyword Keyword     among channel choice clauses const def elimtrue equation
             \ equivalence event expand fail forall free fun get in inj-event insert

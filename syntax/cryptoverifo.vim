@@ -13,6 +13,7 @@ endif
 syn case match
 
 setlocal iskeyword+=39,45
+setlocal commentstring:(*%s*)
 
 syn keyword Keyword     collision const define defined do else end equation equiv
             \ event event_abort expand find forall foreach fun get implementation in

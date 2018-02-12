@@ -13,6 +13,7 @@ endif
 syn case match
 
 setlocal iskeyword+=39,45
+setlocal commentstring:(*%s*)
 
 " The last line of Keyword contains the ones deprecated in new versions
 " of CryptoVerif
