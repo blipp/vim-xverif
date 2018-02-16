@@ -1,12 +1,12 @@
 " Vim syntax highlighting for CryptoVerif
 " Language:   CryptoVerif channels
-" Filenames:  *.cv, *.cvl
+" Filenames:  *.cvres
 " Maintainer: Matěj Grabovský <matej dot grabovsky at gmail>
 " Licence:    MIT
 
 if version < 600
     syn clear
-elseif exists('b:current_syntax') && b:current_syntax == 'cryptoverif'
+elseif exists('b:current_syntax') && b:current_syntax == 'cryptoverifres'
     finish
 endif
 
@@ -41,8 +41,8 @@ syn keyword cvTodo      contained TODO FIXME NOTE XXX
 syn region  occ         start=/{/ end=/}/
 
 hi link cvTodo Todo
-hi link occ IncSearch
+hi link occ Comment
 
-let b:current_syntax = 'cryptoverif'
+let b:current_syntax = 'cryptoverifres'
 
 " vim: set et sw=4 ts=4 sts=4:
