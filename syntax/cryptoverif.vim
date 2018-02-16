@@ -41,7 +41,7 @@ syn keyword cvTodo      contained TODO FIXME NOTE XXX
 syn region  occ         start=/{/ end=/}/
 
 hi link cvTodo Todo
-hi link occ IncSearch
+hi link occ Comment
 
 let b:current_syntax = 'cryptoverif'
 
